@@ -1,0 +1,773 @@
+/* HERO SECTION */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px;
+  background-color: #effbe9;
+}
+
+/* KONTEN HERO */
+.hero-content {
+  width: 50%;
+}
+
+.hero-content span {
+  color: #16833b;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  color: #07552a;
+  margin: 20px 0;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+/* TOMBOL */
+.btn {
+  display: inline-block;
+  background-color: #16833b;
+  color: white;
+  padding: 13px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* GAMBAR HERO */
+.hero-image {
+  width: 50%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* MEMPERBAIKI NAVBAR */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: white;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.logo h2 {
+  color: #16833b;
+  font-size: 25px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #17251c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #16833b;
+}
+
+/* MEMPERINDAH HERO */
+.hero-content h1 {
+  font-family: Arial, sans-serif;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #07552a;
+  margin: 20px 0;
+}
+
+.hero-content p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.hero-content span {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #16833b;
+  font-weight: bold;
+}
+
+.btn {
+  font-family: Arial, sans-serif;
+}
+
+/* KATEGORI POPULER */
+
+.categories {
+  padding: 70px 60px;
+  background-color: #ffffff;
+}
+
+/* JUDUL KATEGORI */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title span {
+  color: #16833b;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.section-title h2 {
+  font-size: 30px;
+  color: #07552a;
+  margin: 12px 0;
+}
+
+.section-title p {
+  color: #666666;
+  font-size: 15px;
+}
+
+/* SUSUNAN KARTU */
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* KARTU KATEGORI */
+
+.category-card {
+  text-align: center;
+  background-color: #f8fbf6;
+  padding: 15px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.category-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.category-card h3 {
+  color: #07552a;
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+.category-card p {
+  color: #777777;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* EFEK KETIKA KURSOR DIARAHKAN */
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* PRODUK UNGGULAN */
+
+.featured-products {
+  padding: 70px 60px;
+  background-color: #f8fbf6;
+}
+
+/* SUSUNAN PRODUK */
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* KARTU PRODUK */
+
+.product-card {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* GAMBAR PRODUK */
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* INFORMASI PRODUK */
+
+.product-info {
+  padding: 18px;
+}
+
+.product-info h3 {
+  color: #07552a;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.product-info p {
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.product-info h4 {
+  color: #16833b;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+/* TOMBOL PRODUK */
+
+.product-info button {
+  width: 100%;
+  padding: 12px;
+  background-color: #16833b;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-info button:hover {
+  background-color: #07552a;
+}
+
+/* KEUNGGULAN TOKO */
+
+.advantages {
+  padding: 70px 60px;
+  background-color: #effbe9;
+}
+
+.advantage-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.advantage-card {
+  background-color: white;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.advantage-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.advantage-icon {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.advantage-card h3 {
+  color: #07552a;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.advantage-card p {
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/*CSS FOOTER*
+/* FOOTER WEBSITE */
+
+.footer {
+  background-color: #07552a;
+  color: white;
+  padding: 50px 60px 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr;
+  gap: 40px;
+}
+
+.footer h2 {
+  margin-bottom: 15px;
+}
+
+.footer h3 {
+  margin-bottom: 15px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #e0eee4;
+}
+
+.footer-links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #b9edbd;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #43815c;
+  margin-top: 35px;
+  padding-top: 20px;
+}
+
+/* HALAMAN PRODUK */
+
+.product-page {
+  padding: 70px 60px;
+  background-color: #f8fbf6;
+  min-height: 500px;
+}
+
+/* HALAMAN TENTANG */
+
+.about-section {
+  padding: 70px 60px;
+  background-color: #f8fbf6;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.about-image {
+  width: 50%;
+}
+
+.about-image img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-text h2 {
+  color: #07552a;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* HALAMAN KONTAK */
+
+.contact-section {
+  padding: 70px 60px;
+  background-color: #f8fbf6;
+}
+
+.contact-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.contact-info {
+  width: 40%;
+  background-color: #eaf8e8;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  color: #07552a;
+  margin-bottom: 25px;
+}
+
+.contact-info p {
+  color: #666666;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  width: 60%;
+  background-color: white;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-form button {
+  background-color: #168442;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #07552a;
+}
+
+/* =================================
+   RESPONSIVE DESIGN
+   ================================= */
+
+/* UNTUK TABLET */
+@media screen and (max-width: 768px) {
+  /* HEADER */
+  header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column;
+    padding: 35px 20px;
+  }
+
+  .hero-content,
+  .hero-image {
+    width: 100%;
+  }
+
+  /* PRODUK DAN KATEGORI */
+  .product-container,
+  .category-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* TENTANG */
+  .about-section,
+  .contact-section {
+    padding: 40px 20px;
+  }
+
+  .about-content,
+  .contact-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .about-image,
+  .about-text,
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+/*tampilan handphone
+/* UNTUK HANDPHONE */
+@media screen and (max-width: 480px) {
+  header {
+    padding: 15px;
+  }
+
+  nav {
+    gap: 12px;
+  }
+
+  nav a {
+    font-size: 13px;
+  }
+
+  .product-container,
+  .category-container {
+    grid-template-columns: 1fr;
+  }
+
+  .product-card img,
+  .category-card img {
+    width: 100%;
+  }
+
+  .section-title h1 {
+    font-size: 25px;
+  }
+
+  .about-image img {
+    height: 230px;
+  }
+
+  .contact-section,
+  .about-section {
+    padding: 35px 15px;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+/* =====================================
+   PERBAIKAN RESPONSIVE YOGA FRESHMART
+   ===================================== */
+
+/* MENCEGAH HALAMAN MELEBAR */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* TABLET DAN HANDPHONE */
+@media screen and (max-width: 768px) {
+  /* HEADER */
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* HERO */
+  .hero {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 25px;
+    padding: 35px 20px;
+  }
+
+  .hero-content,
+  .hero-image {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+  }
+
+  /* TENTANG */
+  .about-content {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .about-image,
+  .about-text {
+    width: 100%;
+  }
+
+  /* KONTAK */
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+/* KHUSUS HANDPHONE */
+@media screen and (max-width: 480px) {
+  /* HEADER */
+  header {
+    padding: 15px;
+  }
+
+  .logo h2 {
+    font-size: 22px;
+  }
+
+  nav {
+    gap: 12px;
+  }
+
+  nav a {
+    font-size: 13px;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 30px 18px;
+    gap: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+    margin: 15px 0;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .hero-image img {
+    height: 220px;
+    border-radius: 12px;
+  }
+
+  .btn {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+
+  /* KATEGORI DAN PRODUK */
+  .categories,
+  .featured-products,
+  .product-page {
+    padding: 40px 15px;
+  }
+
+  .category-container,
+  .product-container,
+  .advantage-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .section-title h2 {
+    font-size: 25px;
+  }
+
+  /* TENTANG */
+  .about-section {
+    padding: 35px 15px;
+  }
+
+  .about-image img {
+    height: 220px;
+  }
+
+  /* KONTAK */
+  .contact-section {
+    padding: 35px 15px;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    max-width: 100%;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 35px 20px 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
